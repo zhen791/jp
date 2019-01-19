@@ -1,0 +1,123 @@
+.jw-captions {
+background-: rgba(0,0,0,0.4)!important;
+color: red!important;
+}
+.jw-text-track {
+}
+.jw-text-track-container {
+margin-bottom: -1%!important; 
+}
+.jwplayer.jw-skin-chans .jw-text-track-cue {
+background: rgba(0,0,0,0)!important;
+  /*
+font-family: 'Jolly Lodger', cursive!important;
+font-family: Tahoma!important;
+color: #ffffff!important;
+font-weight: bold!important;
+letter-spacing: 1.5px;
+text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+  font-weight: bold!important;
+text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+*/
+font-family: Calibri;
+color: #fff!important;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar {
+  background-color: rgba(19, 20, 21, 0.8)fff;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar .jw-button-container .jw-button-color {
+  color: #4495A6;
+}
+
+.jwplayer.jw-skin-chans.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color {
+  color: #0099ff;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar .jw-button-container .jw-button-color:hover {
+  color: #E4F6F7;
+}
+
+
+/* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
+.jwplayer.jw-skin-chans .jw-controlbar .jw-tooltip {
+  bottom: 70%;
+  box-shadow: none;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar .jw-tooltip.jw-open {
+  border-radius: 5px;
+  color: #4495A6;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar .jw-tooltip .jw-text {
+  background-color: #4495A6;
+  border-radius: 5px;
+  border: 0;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar .jw-text {
+  color: #FFF; 
+}
+
+.jwplayer.jw-skin-chans .jw-time-tip .jw-text {
+  color: #4495A6;
+}
+
+.jwplayer.jw-skin-chans .jw-volume-tip,
+.jwplayer.jw-skin-chans .jw-time-tip {
+  padding-bottom: 0;
+}
+
+
+/* Customize colors of volume control knob */
+.jwplayer.jw-skin-chans .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
+  background-color: #0099ff;
+}
+
+
+/* Customize colors of timeslider */
+.jwplayer.jw-skin-chans .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+  background-color: #1E1E1E;
+}
+/*
+.jwplayer.jw-skin-chans .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+  background-color: #f1f1f1;
+}
+*/
+.jwplayer.jw-skin-chans .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
+  background-color: #0099ff;
+}
+
+.jwplayer.jw-skin-chans .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
+  background-color: #0099ff;
+}
+.jwplayer.jw-skin-chans .jw-slider-horizontal{height:.2em}
+
+/* Customize colors/opacity of the settings menu */
+.jwplayer.jw-skin-chans .jw-settings-menu {
+  background-color: transparent;
+}
+
+.jwplayer.jw-skin-chans .jw-settings-menu .jw-settings-topbar {
+  background-color: #4495A6;
+}
+
+.jwplayer.jw-skin-chans .jw-settings-menu .jw-settings-topbar .jw-icon:hover {
+  color: #FFF;
+}
+
+.jwplayer.jw-skin-chans .jw-settings-menu .jw-settings-submenu {
+  background-color: #777;
+}
+
+.jwplayer.jw-skin-chans .jw-settings-menu .jw-settings-content-item {
+  color: #FFF;
+}
+
+.jwplayer.jw-skin-chans .jw-settings-menu .jw-settings-content-item:hover,
+.jwplayer.jw-skin-chans .jw-settings-menu .jw-settings-item-active {
+  color: #FFF;
+  font-weight: bold;
+}
