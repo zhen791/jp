@@ -122,3 +122,7 @@ color: #fff!important;
   color: #FFF;
   font-weight: bold;
 }
+
+.jw-stretch-exactfit .jw-preview {
+	background-size:cover!important;
+}
